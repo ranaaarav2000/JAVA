@@ -15,6 +15,7 @@ public class array_list {
         l1.add(0,5);
         l1.add(0,1);
         l1.addAll(0,l2);
+        l1.add(23);
         System.out.println(l1.contains(6));
         System.out.println(l1.indexOf(7));
 //        l1.clear();

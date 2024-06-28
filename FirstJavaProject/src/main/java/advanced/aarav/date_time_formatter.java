@@ -20,7 +20,7 @@ public class date_time_formatter {
         LocalDateTime myTime = LocalDateTime.now();// This is the date
         System.out.println("Before formatting: "+myTime);
 
-        DateTimeFormatter myFormatter = DateTimeFormatter.ofPattern("dd MMM, yyyy H:mm:ss"); // This is the format
+        DateTimeFormatter myFormatter = DateTimeFormatter.ofPattern("E, dd MMM, yyyy H:mm:ss"); // This is the format
 
         String formatted_date1 = myTime.format(myFormatter);// Creating date string using date and format
         System.out.println("After formatting: "+formatted_date1);

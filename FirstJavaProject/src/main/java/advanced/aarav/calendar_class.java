@@ -30,8 +30,8 @@ public class calendar_class {
         System.out.println(c1getId.getTimeZone().getID());
 //        To get ID
 
-        go down
-            scrolll down to find more about calendars （ちゅいしてください）｜｜｜｜｜👇🏻👇🏻👇🏻👇🏻👇🏻
+//        go down
+//            scrolll down to find more about calendars （ちゅいしてください）｜｜｜｜｜👇🏻👇🏻👇🏻👇🏻👇🏻
 
 
 

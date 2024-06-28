@@ -2,6 +2,7 @@ package advanced.aarav;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.TimeZone;
 
 public class gregorian_Calendar_class {
     public static void main(String[] args) {
@@ -18,6 +19,15 @@ public class gregorian_Calendar_class {
 
 //        Gregorian calendar
         GregorianCalendar cal = new GregorianCalendar();
-        System.out.println(cal.isLeapYear(2020));
+        System.out.println(cal.isLeapYear(2018));
+//        Gregorian Calendar
+
+
+        // Some important methods of time zone class(only 2)
+        System.out.println(TimeZone.getAvailableIDs()[0]);
+        System.out.println(TimeZone.getAvailableIDs()[1]);
+        System.out.println(TimeZone.getAvailableIDs()[2]);
+        System.out.println(TimeZone.getDefault());
+        // Some important methods of time zone class(only 2)
     }
 }

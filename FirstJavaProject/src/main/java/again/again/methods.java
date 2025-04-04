@@ -3,7 +3,7 @@ package again.again;
 public class methods {
      int logic(int i, int q){
         int z;
-        if (i>q){     // _______
+        if (i>q){     // __________
                                 //|
             z = i+q;            //|
             }                  // |

@@ -29,6 +29,5 @@ public class methods {
         int c1;
         c1 = obj.logic(a1, b1); // what I did here is I recalled the method logic in c1..... so i will be a1, q will be b1 & z will be c1
         System.out.println(c1); // now the value of c1 should be.... 16.
-
     }
 }
